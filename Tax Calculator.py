@@ -1,0 +1,5 @@
+income = float(input("Enter the annual income: "))
+if income <= 85528.0: tax=(income * 0.18 - 556)
+else:tax=(14839.02 + (.32 * income - 85528))
+tax = round(tax,0)
+print("The tax is:", tax)
